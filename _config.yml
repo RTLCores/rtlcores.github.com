@@ -1,0 +1,6 @@
+auto: true
+markdow: rdiscount
+permalink: /:year/:month/:day/:title
+rdiscount
+    extensions: [smart]
+
