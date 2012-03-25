@@ -72,7 +72,7 @@ in.
 
     - Functions
 
-    - always @(*)
+    - always @(\*)
 
     - Propigation Delay
 
