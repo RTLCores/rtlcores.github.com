@@ -1,7 +1,8 @@
 ---
 layout: layout
+title: LogicMachines Book
 ---
-## What we want to do ##
+## What we are trying to do ##
 We design digital logic cores written in Verilog, and we
 decided to write a book about it with the following goals:
 
@@ -10,7 +11,7 @@ decided to write a book about it with the following goals:
 - Show detailed design patterns for common logic. 
 - Make it available to everyone.
 
-Most books try to teach Verilog the language, which has many non-synthesisable
+Most books try to teach Verilog the language, which has many non-synthesizable
 constructs. We want to teach the art of building hardware using Verilog as the
 means to describe that hardware.
 
@@ -33,129 +34,75 @@ in.
 ### Logic Machines - The Digital Designers Illustrated Primer ###
 
 - Introduction
-
     - Describing Hardware
-
     - RTL vs. Behavioral
-
     - Tools of the trade
-
 - Fundamentals
-
     - The Module
-
         - Ports List
-         
         - Instances 
-
         - Wires and Regs
-
         - Timescales
-
         - Parameters
-        
     - Signal States
-
-    - Memory Arrays
-
+    - Memories
     - Pins and Pads
-
     - Levels of Logic
-
 - Combinational Logic
-    
     - Simple Logic Gates
-
     - Concatenation
-    
     - Multiplexers
-
     - Functions
-
     - always @(\*)
-
     - Propigation Delay
-
     - Priority Encoding
-
 - Sequential Logic
-    
-    - Non-blocking
-
+    - Clocks
     - The Register (flip-lop)
-
+    - Blocking vs. Non-blocking
+    - Clock Domains
 - Common Logic Blocks
-
     - Synchronizer
-
     - Counters
-
+        - Up
+        - Down
+        - Powers of Two
+        - Non-Powers of Two
     - Shift Registers
-
     - Edge Detectors
-
+        - Any Edge
+        - Rising Edge
+        - Falling Edge
     - Pulse Stretchers
-
     - State Machines
-
     - RAMs
-
     - ROMs
-
     - CSRs - Control and Status Registers
-    
         - Read Mux
-
         - Address decoding
-
 - Math
-    
     - Integer
-
     - Fixed Point
-
     - Arithmetic operators
-
 - The Simulation Environment
-    
     - The Testbench
-
     - Behavioral Models
-
     - Writing Tests
-
     - Time
-    
-    - Initial blocks
-
+    - "initial" blocks
     - $dumpfile
-
     - $dumpvars
-
 - Synthesis
-
     - FPGA - Field Programmable Gate Array
-
     - ASIC - Application Specific Integrated Circuit
-
 - Projecst
-    
     - Simple
-
         - "Hello World!" - Light an LED
-
         - Light an LED with an external input switch
-
-        - Cylon LEDs
-
-        - Cylon LEDs w/PWM fading
-
+        - Cylon LEDs followers
+        - Cylon LEDs followers w/PWM fading
         - 7-segment decoder
-
     - DSP - Digital Signal Processing
-
         - FIR Filter - Finite Impulse Response
- 
         - IIR Filter - Infinite Impulse Response
-
         - NCO - Numerically Controlled Oscillator

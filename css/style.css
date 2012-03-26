@@ -1,3 +1,5 @@
+/* @override http://localhost:4000/css/style.css */
+
 /* =============================================================================
    HTML5 Boilerplate CSS: h5bp.com/css
    ========================================================================== */
@@ -68,7 +70,14 @@ td { vertical-align: top; }
 
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
-
+body {
+	margin: 20px;
+}
+header {
+	width: 100%;
+	height: 200px;
+	background: url(/img/rtlcores_logo_yellow.png) no-repeat;
+}
 
 /* ===== Primary Styles ========================================================
    Author:
